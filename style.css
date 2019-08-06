@@ -8,12 +8,14 @@ html, body {
 @media only screen and (max-width: 768px) {
     body {
       font-size: 20pt;
+      width: 100vw;
     }
   }
   
   @media only screen and (max-width: 320px) {
     body {
       font-size: 24pt;
+      width: 100vw;
     }
   }
 
