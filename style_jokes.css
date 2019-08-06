@@ -84,6 +84,35 @@ nav {
     width: 700px;
 }
 
+.answer {
+    width: 400px;
+    background-color: #ecd875;
+    color: black;
+    padding: 5px 10px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.answer-checkbox {
+    display: none;
+}
+
+.answer-hide {
+    display: inline;
+}
+
+.answer-text {
+    display: none;
+}
+
+.answer-checkbox:checked + label > p.answer-hide {
+    display: none;
+}
+
+.answer-checkbox:checked + label > p.answer-text {
+    display: inline;
+}
+
 .footer {
     background: #C5EC75;
     display: flex;
