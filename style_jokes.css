@@ -77,15 +77,9 @@ nav {
     align-items: center;
 }
 
-.menu-img > img {
-    /* object-fit: stretch; */
-    max-width: 100vw;
-    height: auto;
-    width: 700px;
-}
-
 .answer {
     width: 400px;
+    max-width: 90vw;
     background-color: #ecd875;
     color: black;
     padding: 5px 10px;
