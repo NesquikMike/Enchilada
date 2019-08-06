@@ -47,9 +47,9 @@ nav {
     list-style-type: none;
     align-content: center;
     width: 600px;
-    max-width: 98vw;
-    padding-inline-start: 1vw;
-    padding-inline-end: 1vw;
+    max-width: 95vw;
+    padding-inline-start: 2.5vw;
+    padding-inline-end: 2.5vw;
 }
 
 .list-nav > li {
