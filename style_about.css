@@ -83,7 +83,8 @@ nav {
 .imgs {
     display: grid;
     /* grid-gap: 10px; */
-    max-width: 700px; 
+    width: 700px; 
+    max-width: 100vh;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: stretch; 
