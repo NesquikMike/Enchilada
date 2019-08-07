@@ -93,21 +93,21 @@ nav {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
     width: 466px;
-    max-width: 1.99vh;
+    max-width: 66vh;
 }
 
 #cheese_house_gate {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
     width: 233px;
-    max-width: .99vh;
+    max-width: 33vh;
 }
 
 #table {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
     width: 233px;
-    max-width: .99vh;
+    max-width: 33vh;
 }
 .imgs > img {
     object-fit: stretch;
