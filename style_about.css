@@ -70,7 +70,7 @@ nav {
     text-align: center;
     padding-bottom: 3rem;
     max-width: 700px;
-    justify-self: center
+    justify-self: center;
 }
 
 .chefs-text > img {
@@ -80,35 +80,42 @@ nav {
     width: 400px;
 }
 
+.chefs-text > p {
+    max-width: 100vw;
+    /* justify-self: center; */
+    /* width: 400px; */
+}
+
 .imgs {
     display: grid;
     /* grid-gap: 10px; */
-    width: 700px; 
+    /* width: 700px;  */
     max-width: 99vh;
     grid-template-columns: 2fr 1fr;
     grid-template-rows: 1fr 1fr;
     justify-items: stretch; 
+    margin-bottom: 2vh;
 }
 
 #cheeseboard {
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-    width: 466px;
-    max-width: 66vh;
+    /* width: 466px; */
+    max-width: 100%;
 }
 
 #cheese_house_gate {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    width: 233px;
-    max-width: 33vh;
+    /* width: 233px; */
+    max-width: 100%;
 }
 
 #table {
     grid-column: 2 / 3;
     grid-row: 2 / 3;
-    width: 233px;
-    max-width: 33vh;
+    /* width: 233px; */
+    max-width: 100%;
 }
 .imgs > img {
     object-fit: stretch;
